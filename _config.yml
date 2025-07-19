@@ -11,6 +11,8 @@ author: alice
 description: Example description
 description_long: Example long description
 email: info@example.com
+cdn:
+  url: https://cdn.kwappa.net
 exclude:
   - docker
   - docker-compose.yml
