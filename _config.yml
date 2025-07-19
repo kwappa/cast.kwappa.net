@@ -1,18 +1,22 @@
-actors:
-  alice:
-    image_url: /images/actors/alice.png
-    name: alice
-    url: http://sns.example.com/alice
-  bob:
-    image_url: /images/actors/bob.png
-    name: bob
-    url: http://sns.example.com/bob
-author: alice
-description: Example description
-description_long: Example long description
-email: info@example.com
+title: かっぱ放送局
+language: ja
+timezone: Asia/Tokyo
+description: かっぱのPodcast
+description_long: かっぱが日々の生活を話します
+url: https://cast.kwappa.net
+email: kwappa.856@gmail.com
+
+permalink: /episode/:slug
 cdn:
   url: https://cdn.kwappa.net
+google_analytics: G-42TYB4K1Q7
+hashtag: kwappacast
+itunes_podcast_url:
+keywords: comma,separated,keywords
+
+markdown: kramdown
+sass:
+  sass_dir: css
 exclude:
   - docker
   - docker-compose.yml
@@ -21,15 +25,9 @@ exclude:
   - LICENSE.txt
   - README.md
   - vendor
-google_analytics:
-hashtag: examplehashtag
-itunes_podcast_url:
-keywords: comma,separated,keywords
-language: ja
-markdown: kramdown
-permalink: /episode/:title
-sass:
-  sass_dir: css
-timezone: Asia/Tokyo
-title: Example title
-url: http://example.com
+
+actors:
+  kwappa:
+    image_url: /images/actors/kwappa.png
+    name: kwappa
+    url: https://kwappa.net
